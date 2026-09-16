@@ -1168,6 +1168,35 @@ a[href$='./chat.php'] {
         min-width: 600px;
     }
 
+    .scrollSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.bigBox, .smallBox {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 2px solid #4b2e83;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+.bigBox {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.smallBox {
+  font-size: 16px;
+}
+
+
     .main,
     .topbar {
         box-shadow: none !important;
