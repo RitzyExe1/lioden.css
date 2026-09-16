@@ -368,8 +368,12 @@ a:focus {
 
 /* lion image */
 #lion_image {
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 50%;
     overflow: hidden;
+    width: 300px;
+    height: 300px;
 }
 
 /*avatar image */
