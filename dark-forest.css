@@ -368,18 +368,17 @@ a:focus {
 
 /* lion image */
 #lion_image>div {
-    img[src*="lionimage"] {
-    border-radius: 10px;
     border: 1px solid var(--borderColor);
     border-radius: 50%;
-    }
+    overflow: hidden;
 }
 
 /*avatar image */
-#avata_image>di {
-    img[src*="avatar"] {
+#playerAvater img>di {
     border-radius: 50%;
-    }
+    overflow: hidden:
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5):
 }
 
 /* table body */
