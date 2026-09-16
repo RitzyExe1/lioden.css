@@ -368,20 +368,18 @@ a:focus {
 
 /* lion image */
 #lion_image>div {
+    img[src*="lionimage"] {
     border-radius: 10px;
     border: 1px solid var(--borderColor);
     border-radius: 50%;
+    }
 }
 
 /*avatar image */
 #avata_image>di {
+    img[src*="avatar"] {
     border-radius: 50%;
-}
-
-/* lion image */
-#lion_image>div {
-    border-radius: 10px;
-    border: 1px solid var(--borderColor);
+    }
 }
 
 /* table body */
