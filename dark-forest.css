@@ -367,8 +367,7 @@ a:focus {
 }
 
 /* lion image */
-#lion_image>div {
-    border: 1px solid var(--borderColor);
+#lion_image {
     border-radius: 50%;
     overflow: hidden;
 }
