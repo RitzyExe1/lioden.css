@@ -366,9 +366,16 @@ a:focus {
     font-weight: bold;
 }
 
-/* lion title and name */
-.xlarge.b {
-    font-weight: bold;
+/* lion image */
+#lion_image>div {
+    border-radius: 10px;
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+}
+
+/*avatar image */
+#avata_image>di {
+    border-radius: 50%;
 }
 
 /* lion image */
