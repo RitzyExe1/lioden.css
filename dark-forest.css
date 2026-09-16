@@ -372,8 +372,8 @@ a:focus {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 50%;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 /*avatar image */
