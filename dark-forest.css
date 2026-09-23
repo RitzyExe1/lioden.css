@@ -47,7 +47,7 @@
 /* Body */
 body {
     font-family: var(--mainFont);
-    background: #141e1f url(https://i.pinimg.com/originals/47/6a/7d/476a7dc5fb39f49d8ad27d8ebe2ffc49.jpg) fixed;
+    background: #141e1f url(https://wallpaperaccess.com/full/2557873.jpg) fixed;
     background-position-y: center;
     background-position-x: center;
     /* DON'T CHANGE BELOW */
@@ -372,8 +372,8 @@ a:focus {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 50%;
     overflow: hidden;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 /*avatar image */
@@ -533,7 +533,7 @@ input::placeholder {
 /* cave and mound customization */
 /* all caves */
 .cave-grid>img {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/FireflyForestBG.png');
+    content: url('https://dev-beta.quizur.com/storage/v1/render/image/public//imagens//21339317/f7f12d16-6ce7-4f34-bbc3-2decce1d3c51.png?width=400&quality=75');
     height: 120px;
     object-fit: cover;
     object-position: top;
