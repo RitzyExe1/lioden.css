@@ -1222,3 +1222,28 @@ a[href$='./chat.php'] {
         height: 450px !important;
     }
 }
+
+.lore-box {
+  background: rgba(0,0,0,0.6);
+  padding: 15px;
+  border: 2px solid #1a2e1a;
+  max-height: 250px;   /* controla a altura da caixa */
+  overflow-y: auto;    /* cria rolagem vertical */
+}
+
+.lore-box h2 {
+  color: #ab975c;
+}
+
+.lore-box p {
+  color: #dcdcdc;
+}
+
+.lore-box p.italic {
+  font-style: italic;
+}
+
+.lore-box b {
+  color: #ab975c;
+}
+
