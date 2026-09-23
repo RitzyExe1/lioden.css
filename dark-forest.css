@@ -199,7 +199,7 @@ a:focus {
 }
 
 .breadcrumb::after {
-    content: "CSS by Chris (#105465)";
+    content: "CSS by Ritzy (#377747)";
     position: absolute;
     right: 20%;
     z-index: 100;
@@ -549,27 +549,6 @@ img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
     object-position: top;
 }
 
-/* unsorted lions */
-/* img[src$='//static.lioden.com/images/layout/unsortedlionsbanner.png'] {
-    content: url('LINK');
-    object-position: top;
-    } */
-/* pregnant lionesses */
-/* img[src$='//static.lioden.com/images/layout/nestingbanner.png'] {
-    content: url('LINK');
-    object-position: top;
-    } */
-/* pride overview */
-/* img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
-    content: url('LINK');
-    object-position: top;
-    } */
-/* all mounds */
-/* .mound-grid img {
-    content: url('LINK');
-    padding: 5px;
-    } */
-/* pride tab text overlay code by Chris (#105465) (credit must remain intact for any use of this code and I do not permit it to be used for comms or free css without explicit permission from me.) */
 /* mobile section */
 @media (max-width: 768px) {
 
