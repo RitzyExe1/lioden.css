@@ -9,7 +9,7 @@
     --eventText: #ffff66;
     --mainFont: 'Noto Serif', 'Times New Roman', Times, serif;
     --headFont: 'Noto Serif', 'Times New Roman', Times, serif;
-    --bgColor: #0a0f0f1a;
+    --bgColor: #00000085;
     --pc1: #141e1f4f;
     --pc2: #272c2db5;
     --pc3: #35543a0f;
@@ -533,7 +533,7 @@ input::placeholder {
 /* cave and mound customization */
 /* all caves */
 .cave-grid>img {
-    content: url('https://dev-beta.quizur.com/storage/v1/render/image/public//imagens//21339317/f7f12d16-6ce7-4f34-bbc3-2decce1d3c51.png?width=400&quality=75');
+    content: url('https://i.pinimg.com/1200x/70/a3/9e/70a39ee3ba9012f6eafb5f0376e7bf82.jpg');
     height: 120px;
     object-fit: cover;
     object-position: top;
@@ -543,7 +543,7 @@ input::placeholder {
 img[src$='//static.lioden.com/images/layout/unsortedlionsbanner.png'],
 img[src$='//static.lioden.com/images/layout/nestingbanner.png'],
 img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/darkforest.png');
+    content: url('https://i.pinimg.com/736x/b3/5f/af/b35faf576dc4c14f614d3f82e7f22d2b.jpg');
     height: 80px;
     object-fit: cover;
     object-position: top;
@@ -660,7 +660,7 @@ img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
 }
 
 .mound-grid img {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/Jungle_Night.png');
+    content: url('https://i.pinimg.com/736x/7d/3a/fd/7d3afdeb5879af7aa2d21b35cc673373.jpg');
     height: 100px;
     width: 100%;
     object-fit: cover;
@@ -1203,9 +1203,9 @@ a[href$='./chat.php'] {
 }
 
 .lore-box {
-  background: rgba(0,0,0,0.6);
+  background: rgba(255,255,255,0.6);
   padding: 15px;
-  border: 2px solid #1a2e1a;
+  border: 2px solid #ffffff00;
   max-height: 300px;   /* controla a altura da caixa */
   overflow-y: auto;    /* cria rolagem vertical */
 }
