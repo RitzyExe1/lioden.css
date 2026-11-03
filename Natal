@@ -47,7 +47,7 @@
 /* Body */
 body {
     font-family: var(--mainFont);
-    background: #141e1f url(https://wallpaperaccess.com/full/3352658.jpg) fixed;
+    background: #141e1f url(https://wallpaperaccess.com/full/1092503.jpg) fixed;
     background-position-y: center;
     background-position-x: center;
     /* DON'T CHANGE BELOW */
@@ -64,11 +64,11 @@ h3,
     color: var(--fc1);
     font-family: "American Typewriter", serif;
     text-align: center;
-    color: #ab975c;
+    color: #ffffff;
     text-shadow:
       2px 2px 5px #000000,
-        0 0 10px #997353,
-        0 0 20px #663500;
+        0 0 10px #745399,
+        0 0 20px #006658;
     letter-spacing: 3px;
     text-transform:uppercase;
 }
@@ -533,7 +533,7 @@ input::placeholder {
 /* cave and mound customization */
 /* all caves */
 .cave-grid>img {
-    content: url('https://i.pinimg.com/1200x/70/a3/9e/70a39ee3ba9012f6eafb5f0376e7bf82.jpg');
+    content: url('https://wallpaperaccess.com/full/4946932.jpg');
     height: 120px;
     object-fit: cover;
     object-position: top;
@@ -660,7 +660,7 @@ img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
 }
 
 .mound-grid img {
-    content: url('https://i.pinimg.com/736x/7d/3a/fd/7d3afdeb5879af7aa2d21b35cc673373.jpg');
+    content: url('https://wallpapercave.com/wp/wp8134027.jpg');
     height: 100px;
     width: 100%;
     object-fit: cover;
@@ -684,7 +684,7 @@ img[src$='//static.lioden.com/images/layout/caveunused.jpg'] {
 
 /* featured lion background image */
 .featured-lion img[src$='//static.lioden.com/images/cave/default.png'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/FireflyForestBG.png') !important;
+    content: url('https://wallpapercave.com/wp/9C1iLER.jpg') !important;
     /* filter: none; */
 }
 
