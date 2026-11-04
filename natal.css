@@ -91,13 +91,13 @@ h3,
 }
 
 .blood-divider span{
-    margin:0 15px;
-    padding:6px 14px;
+    margin:0 35px;
+    padding:6px 35px;
 
     background:rgba(0,0,0,.5);
-    border:1px solid #ab975c;
+    border:1px solid ##ffffff;
 
-    color:#ab975c;
+    color:##ffffff;
 
     font-family:"American Typewriter", serif;
     text-transform:uppercase;
