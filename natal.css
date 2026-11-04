@@ -1203,14 +1203,15 @@ a[href$='./chat.php'] {
 }
 /*Lore que ta no topo do perfil*/
 .lore-box{
-    background:
-      linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
-      url('https://i.pinimg.com/736x/a7/75/2d/a7752d18fecf1edd065f5c72157993eb.jpg');
-    background-size:cover;
-    background-position:center;
-    padding:20px;
-    overflow-y:auto;
-    color:#dcdcdc;
+    display:flex;
+    gap:15px;
+    
+    background:rgba(0,0,0,.65);
+    padding:15px;
+    border-radius:8px;
+    border:1px solid rgba(171,151,92,.35);
+
+     height:350px; /* altura fixa */
 }
 
 .lore-layout{
@@ -1220,11 +1221,33 @@ a[href$='./chat.php'] {
 
 .lore-text{
     width:45%;
+
+    overflow-y:auto; /*Rolagem só aqui*/
+    padding-right:10px;
   color: #dcdcdc;
 }
 
+.lore-text::-webkit-scrollbar{
+    width:4px;
+}
+
+.lore-text::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+.lore-text::-webkit-scrollbar-thumb{
+    background:#ab975c;
+}
+
+/*Imagem dentro da lore*/
 .lore-image{
     width:55%
+
+    background:url('https://i.pinimg.com/736x/a6/85/93/a68593919b308596a7fd639df234428e.jpg');
+    background-size:cover;
+    background-position:center;
+
+    border-radius:6px;
 }
 
 .lore-box p.italic {
