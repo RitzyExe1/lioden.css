@@ -58,13 +58,7 @@ body {
 
 /* Headers */
 h1,
-h1{
-    font-size:32px;
-}
 h2,
-h2{
-    font-siza:24px
-}
 h3,
 .sidebar h3 {
     color: var(--fc1);
@@ -78,7 +72,7 @@ h3,
     letter-spacing: 3px;
     text-transform:uppercase;
 
-    font-size: 20px; /*tamanho da fonte*/
+    font-size: 35px; /*tamanho da fonte*/
 }
 
 /*divisoria*/
@@ -100,7 +94,14 @@ h3,
     margin:0 15px;
     padding:6px 14px;
 
-    background:rgba(0,0,0,.5)
+    background:rgba(0,0,0,.5);
+    border:1px solid #ab975c;
+
+    color:#ab975c;
+
+    font-family:"American Typewriter", serif;
+    text-transform:uppercase;
+    letter-spacing:2px;
 }
 
 /* Other Text */
