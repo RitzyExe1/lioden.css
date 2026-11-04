@@ -1201,19 +1201,15 @@ a[href$='./chat.php'] {
         height: 450px !important;
     }
 }
-
+/*Lore que ta no topo do perfil*/
 .lore-box{
     background:
       linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
-      url('SUA-IMAGEM');
+      url('https://i.pinimg.com/736x/a7/75/2d/a7752d18fecf1edd065f5c72157993eb.jpg');
     background-size:cover;
     background-position:center;
-
     padding:20px;
-    max-height:350px;
     overflow-y:auto;
-
-    border:1px solid #ab975c;
     color:#dcdcdc;
 }
 
