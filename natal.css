@@ -1299,3 +1299,22 @@ a[href$='./chat.php'] {
     object-fit:cover;
     filter:brightness(.85) grayscale(20%);
 }
+
+/*Move a commentBox para cima da lore */
+#pageContainer .col-md-9.col-xs-12.center {
+    display: flex !important;
+    flex-direction: colum !important;
+}
+
+#commentBox,
+#makeComment,
+#postComment,
+#commentErrors {
+    position: relative;
+    top: -1600px;
+    order: -1 !important;
+}
+
+.page-description {
+    order: 2 !important;
+}
