@@ -1311,7 +1311,7 @@ a[href$='./chat.php'] {
 #postComment,
 #commentErrors {
     position: relative;
-    top: -1600px;
+    top: -1450px;
     order: -1 !important;
 }
 
